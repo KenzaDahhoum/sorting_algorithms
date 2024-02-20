@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "sort.h" /* Assuming sort.h defines the prototype of print_array */
+#include "sort.h"
 
 /**
  * partition - Implements the Lomuto partition scheme.
