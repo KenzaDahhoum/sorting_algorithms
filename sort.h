@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define parent(x) (((x) - 1) / 2)
+#define leftchild(x) (((x) * 2) + 1)
+
 /**
  *struct listint_s - Doubly linked list node
  *
