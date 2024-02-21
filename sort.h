@@ -33,6 +33,11 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
+/**void heap_sort(int *array, size_t size);*/
+
+
+void swap_ints(int *a, int *b);
+void max_heapify(int *array, size_t size, size_t base, size_t root);
 void heap_sort(int *array, size_t size);
 
 /* helper functions */
@@ -40,8 +45,8 @@ void swap(listint_t *a, listint_t *b);
 size_t max_gap(size_t size);
 void compare_merge(int *array, size_t start, size_t stop, int *new_array);
 void sort_top_down(int *array, size_t start, size_t stop, int *new_array);
-void swap(int *array, size_t size, int *a, int *b);
-void siftdown(int *array, size_t start, size_t end, size_t size);
-void heapify(int *array, size_t size);
+/*void swap(int *array, size_t size, int *a, int *b);*/
+/*void siftdown(int *array, size_t start, size_t end, size_t size);*/
+/*void heapify(int *array, size_t size);*/
 
 #endif
